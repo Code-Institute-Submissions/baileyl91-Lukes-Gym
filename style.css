@@ -42,6 +42,10 @@
 
 /* --  About Us Section -- */
 
+.about-section {
+    border-bottom: 1px solid grey;
+}
+
 .about {
     text-align: center;
     height: 200px;
