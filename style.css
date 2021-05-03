@@ -1,7 +1,63 @@
-.footer {
-    background-color:beige;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* -- Navbar styling -- */
+
+.navbar-bg {
+    background-color: #190061;
 }
 
-.jumbotron {
-    background-image: ;
+.navbar-brand {
+    color: white;
+    margin-left: 5px;
+    font-family: 'Roboto', sans-serif;
 }
+
+.nav-link {
+    color: white;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar li > a:hover {
+    color: grey;
+}
+
+.navbar-nav > .active > a {
+    color: grey;
+    border-bottom: 2px solid grey;
+}
+
+/* -- Jumbotron styling -- 
+
+.jumbotron {
+    color: white;
+    background-image: url("/images/gymbikes.png") ;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 75vh;
+}
+
+/* --  About Us Section -- 
+
+.about {
+    text-align: center;
+    height: 200px;
+}
+
+/* -- Footer styling -- 
+
+.footer {
+    background-color:#190061;
+    color: white;
+    margin-top: 5px;
+}
+
+.address {
+    margin-top: 5px;
+}
+
+
+
