@@ -47,11 +47,20 @@
     height: 200px;
 }
 
+/* -- Hours and Location container -- */
+.hrs-location-section {
+    height: 400px;
+}
+
 /* -- Opening Hours section -- */
 
 .opening-hrs {
-    text-align: center;
-    height: 200px;
+    text-align: left;
+}
+
+.timetable {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* -- Location Section -- */
