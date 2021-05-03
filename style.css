@@ -47,6 +47,20 @@
     height: 200px;
 }
 
+/* -- Opening Hours section -- */
+
+.opening-hrs {
+    text-align: center;
+    height: 200px;
+}
+
+/* -- Location Section -- */
+
+.location {
+    text-align: center;
+    height: auto;
+}
+
 /* -- Footer styling -- 
 
 .footer {
