@@ -49,6 +49,7 @@
 .about {
     text-align: center;
     height: 200px;
+    
 }
 
 /* -- Hours and Location container -- */
@@ -60,6 +61,14 @@
 
 .opening-hrs {
     text-align: left;
+    padding-top: 50px;
+    border-right: 1px solid grey;
+}
+
+.opening-hrs > h2 {
+    padding-left: 50px;
+    padding-bottom: 25px;
+   text-decoration-line: underline;
 }
 
 .timetable {
@@ -70,8 +79,19 @@
 /* -- Location Section -- */
 
 .location {
-    text-align: center;
+    text-align: left;
+    padding-top: 50px;
     height: auto;
+}
+
+.location > h2 {
+    padding-left: 50px;
+    padding-bottom: 25px;
+    text-decoration-line: underline;
+}
+
+.location > p {
+    padding-left: 50px;
 }
 
 /* -- Footer styling -- 
