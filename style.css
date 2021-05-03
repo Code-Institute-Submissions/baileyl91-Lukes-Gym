@@ -94,16 +94,14 @@
     padding-left: 50px;
 }
 
-/* -- Footer styling -- 
+/* -- Footer styling -- */
 
 .footer {
     background-color:#190061;
     color: white;
-    margin-top: 5px;
-}
-
-.address {
-    margin-top: 5px;
+    padding-top: 20px;
+    padding-bottom: 5px;;
+    text-align: center;
 }
 
 
