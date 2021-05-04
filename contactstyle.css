@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* -- Navbar styling -- */
+
+.navbar-bg {
+    background-color: #190061;
+}
+
+.navbar-brand {
+    color: white;
+    margin-left: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-link {
+    color: white;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar li > a:hover {
+    color: grey;
+}
+
+.navbar-nav > .active > a {
+    color: grey;
+    border-bottom: 2px solid grey;
+}
+
+/* -- Footer styling -- */
+
+.footer {
+    background-color:#190061;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 5px;;
+    text-align: center;
+    width: 100%;
+}
+
+/* -- Contact Us Section -- */
+
+.contact-section {
+    color: black ;
+    height: 250px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+/* -- Form Section -- */
+
+.message-form {
+    margin-top: 30px;
+    max-width: 600px;
+    padding: 30px;
+    border: 1px solid grey;
+}
+
+.text-input {
+    
+    width: 100%;
+    height: 35px;
+    margin: 10px 0 20px ;
+    border: 1px solid;
+    border-radius: 8px;
+    background-color: #EEEEEE;
+}
+
+.text-input:hover {
+    background-color: #B8B8B8;
+}
+
+.submit-button {
+    margin-bottom: 20px;
+    border-radius: 50px;
+    padding: 15px 25px 15px 25px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #190061;
+    color: white;
+    float: right;
+}
+
+.submit-button:hover {
+   transform: translateY(1.5px);
+}
+
+.text-area-input {
+  width: 100%;
+    height: 100px;
+    margin: 15px 0 20px 0;
+    border: 1px solid;
+    border-radius: 8px;
+    background-color: #EEEEEE;
+}
+
+.text-area-input:hover {
+    background-color: #B8B8B8;
+}
