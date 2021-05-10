@@ -71,6 +71,7 @@ body {
     max-width: 650px;
     padding: 20px;
     border: 1px solid grey;
+    margin: auto;
 }
 
 .text-input {
