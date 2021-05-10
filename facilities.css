@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* -- Navbar styling -- */
+
+.navbar-bg {
+    background-color: #190061;
+}
+
+.navbar-brand {
+    color: white;
+    margin-left: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-link {
+    color: white;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar li > a:hover {
+    color: grey;
+}
+
+.navbar-nav > .active > a {
+    color: grey;
+    border-bottom: 2px solid grey;
+}
+
+/* -- Footer styling -- */
+
+.footer {
+    background-color:#190061;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 5px;;
+    text-align: center;
+}
