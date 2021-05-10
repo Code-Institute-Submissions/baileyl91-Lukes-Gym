@@ -29,6 +29,68 @@
     border-bottom: 2px solid grey;
 }
 
+body {
+    background-color: #fafafa;
+  }
+  
+  #header {
+      margin-top: 70px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-decoration: underline;
+    text-transform: uppercase;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+   p {
+    text-align: center;
+  }
+  
+  img {
+    height: 250px;
+    width: 100%;
+    border-radius: 3%;
+  }
+  
+  .img-size {
+    height: 250px;
+  }
+  
+  .img-size-four {
+    height: 250px;
+  }
+  
+  .box {
+    height: 50px;
+  }
+  
+  .icons {
+    height: 150px;
+    margin-top: 25px;
+  }
+  
+  .fas {
+    font-size: 50px;
+    color: navy;
+    margin-bottom:20px;
+  }
+  
+  .center {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .box-two {
+    height: 50px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 25px;
+  }
+
 /* -- Footer styling -- */
 
 .footer {
