@@ -75,7 +75,6 @@ body {
 }
 
 .text-input {
-    
     width: 100%;
     height: 35px;
     margin: 10px 0 20px ;
@@ -86,6 +85,10 @@ body {
 
 .form-control {
     background-color: #EEEEEE;
+}
+
+.form-control:hover {
+    background-color: #B8B8B8;
 }
 
 .text-input:hover {
@@ -107,15 +110,4 @@ body {
    transform: translateY(1.5px);
 }
 
-.text-area-input {
-  width: 100%;
-    height: 100px;
-    margin: 15px 0 20px 0;
-    border: 1px solid;
-    border-radius: 8px;
-    background-color: #EEEEEE;
-}
 
-.text-area-input:hover {
-    background-color: #B8B8B8;
-}
