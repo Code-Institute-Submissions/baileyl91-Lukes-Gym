@@ -52,47 +52,79 @@
     
 }
 
-/* -- Hours and Location container -- */
-.hrs-location-section {
-    height: 400px;
-}
-
-/* -- Opening Hours section -- */
-
-.opening-hrs {
-    text-align: left;
+.hero {
+    height: 100vh;
+  }
+  
+  img {
+    background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 75vh;
+  }
+  
+  h2 {
     padding-top: 50px;
-    border-right: 1px solid grey;
-}
-
-.opening-hrs > h2 {
-    padding-left: 50px;
-    padding-bottom: 25px;
-   text-decoration-line: underline;
-}
-
-.timetable {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* -- Location Section -- */
-
-.location {
-    text-align: left;
+    padding-left: 10px;
+    text-decoration: underline;
+    font-family: 'Verdana', sans-serif;
+  }
+  
+  .map {
     padding-top: 50px;
-    height: auto;
-}
-
-.location > h2 {
-    padding-left: 50px;
-    padding-bottom: 25px;
-    text-decoration-line: underline;
-}
-
-.location > p {
-    padding-left: 50px;
-}
+    padding-bottom: 50px;
+  }
+  
+  
+  h5 {
+    font-weight: bold;
+  }
+  
+  h5, p {
+    margin-left: 40px;
+  }
+  
+  .row {
+    height: 300px;
+  }
+  
+  .left {
+    background-color: #fafafa;
+  }
+  
+  .center {
+    background-color: #fafafa;
+    
+  }
+  
+  .right {
+    background-color: #fafafa;
+    padding-top: 10px;
+  }
+  
+  table {
+    width: 85%;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding-bottom: 2px;
+    text-align: center;
+  }
+  
+  .head {
+    background-color: navy;
+    color: white;
+    margin-bottom: 5px;
+  }
+  
+  .sub {
+    background-color: #fafafa;
+    width: 100%;
+  }
+  
 
 /* -- Footer styling -- */
 
