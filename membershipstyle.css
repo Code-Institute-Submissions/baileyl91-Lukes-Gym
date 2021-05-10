@@ -93,13 +93,17 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.fa-facebook {
+.fa {
   color: white;
-}
-
-.fa-instagram {
-  color: white;
-}
+  font-size: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 2px;
+  }
+  
+  .fa:hover {
+  color: grey;
+  }
 
 .card-row {
   height: 700px;
