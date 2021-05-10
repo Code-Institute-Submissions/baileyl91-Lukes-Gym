@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 /* -- Navbar styling -- */
 
 .navbar-bg {
@@ -41,12 +45,9 @@
 
 /* --  About Us Section -- */
 
-
-
 .about {
     text-align: center;
     height: 200px;
-    
 }
   
   img {
@@ -58,7 +59,7 @@
      object-fit: cover;
   }
   
-  h2 {
+  .sub-head {
     padding-top: 50px;
     padding-left: 10px;
     text-decoration: underline;
@@ -67,20 +68,22 @@
   
   .map {
     padding-top: 50px;
-    padding-bottom: 50px;
   }
   
-  
-  h5 {
+  .address {
     font-weight: bold;
   }
   
-  h5, p {
+  .address-p {
+    margin-left: 40px;
+  }
+
+  .phone-p {
     margin-left: 40px;
   }
   
-  .row {
-    height: 300px;
+  .section {
+    height: 400px;
   }
   
   .left {
@@ -89,7 +92,6 @@
   
   .center {
     background-color: #fafafa;
-    
   }
   
   .right {
