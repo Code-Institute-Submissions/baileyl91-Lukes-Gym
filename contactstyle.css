@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+body {
+    background-color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+}
+
 /* -- Navbar styling -- */
 
 .navbar-bg {
@@ -37,7 +42,6 @@
     padding-top: 20px;
     padding-bottom: 5px;;
     text-align: center;
-    width: 100%;
 }
 
 /* -- Contact Us Section -- */
@@ -52,9 +56,9 @@
 /* -- Form Section -- */
 
 .message-form {
-    margin-top: 30px;
-    max-width: 600px;
-    padding: 30px;
+    margin-top: 20px;
+    max-width: 100%;
+    padding: 20px;
     border: 1px solid grey;
 }
 
