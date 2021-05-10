@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+body {
+  background-color: #fafafa;
+  font-family: 'Roboto', sans-serif;
+}
+
 /* -- Navbar styling -- */
 
 .navbar-bg {
@@ -29,25 +34,38 @@
     border-bottom: 2px solid grey;
 }
 
-/* -- Footer styling -- */
-
-.footer {
-    background-color:#190061;
-    color: white;
-    padding-top: 20px;
-    padding-bottom: 5px;;
-    text-align: center;
+#sub-head {
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 100px;
 }
 
-
-body {
-    background-color: #fafafa;
+  .card-title {
+    text-align: center;
   }
   
-  #sub-head {
+  img {
+    height: 250px;
+  }
+  
+  .left {
     text-align: center;
-    padding-top: 10px;
-    margin-top: 100px;
+    background-color: #a57164;
+  }
+  
+  .middle {
+    text-align: center;
+    background-color: #c0c0c0;
+  }
+  
+  .right {
+    text-align: center;
+    background-color: #daa520;
+  }
+  
+  i {
+    font-size: 50px;
+    color: #fafafa;
   }
   
   .card-deck {
@@ -56,10 +74,6 @@ body {
     margin-top: 30px;
    }
   
-  .card-footer {
-    background-color: navy;
-  }
-  
   .card-img-top {
     height: 250px;
   }
@@ -67,3 +81,18 @@ body {
   .membership{
     background-color: grey;
   }
+
+/* -- Footer styling -- */
+
+.footer {
+    background-color:#190061;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 5px;;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;;
+}
+
+.card-row {
+  height: 700px;
+}
