@@ -32,7 +32,6 @@
 /* -- Jumbotron styling -- */
 
 .jumbotron {
-    color: white;
     background-image: url("/images/gymbikes.png") ;
      background-position: center;
      background-repeat: no-repeat;
@@ -42,25 +41,21 @@
 
 /* --  About Us Section -- */
 
-.about-section {
-    border-bottom: 1px solid grey;
-}
+
 
 .about {
     text-align: center;
     height: 200px;
     
 }
-
-.hero {
-    height: 100vh;
-  }
   
   img {
     background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
-     height: 75vh;
+     height: 300px;
+     width: 100%;
+     object-fit: cover;
   }
   
   h2 {
