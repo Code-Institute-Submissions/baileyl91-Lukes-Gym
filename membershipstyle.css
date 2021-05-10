@@ -90,7 +90,15 @@ body {
     padding-top: 20px;
     padding-bottom: 5px;;
     text-align: center;
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
+}
+
+.fa-facebook {
+  color: white;
+}
+
+.fa-instagram {
+  color: white;
 }
 
 .card-row {
