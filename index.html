@@ -5,32 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" type="text/css">
+    
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-    <link rel="stylesheet" href="facilities.css">
+    <link rel="stylesheet" href="style.css">
     <title>Luke's Gym</title>
 </head>
 <body>
-    <!-- Navbar -->
-    <div class="container">
+
+  <div id="page-container">
+    
+    <div id="content-wrap">
+
+       <!-- Navbar -->
+       <div class="container">
         <div class="row">
             <nav class="navbar fixed-top navbar-bg navbar-expand-sm">
                 <h1 class="navbar-brand">Luke's Gym</h1>
 
                 <!-- Toggler/collapsibe Button -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-              <span class="navbar-toggler-icon"></span>
-              <i class="fa fa-navicon" style="color:#fff; font-size:28px;"></i>
-            </button>
-
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-
+                <span class="navbar-toggler-icon"></span>
+                <i class="fa fa-navicon" style="color:#fff; font-size:28px;"></i>
+              </button>
+  
+              <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
+                    <li class="active nav-item">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
-                    <li class="active nav-item">
+                    <li class="nav-item">
                         <a class="nav-link" href="facilities.html"">Facilities</a>
                     </li>
                     <li class="nav-item">
@@ -40,83 +44,113 @@
                         <a  class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
-            </div>
+              </div>
             </nav>
         </div>
     </div>
 
-    <div class="container">
+
+    
+        <div class="container-fluid hero"></div>
+    
+
+    <div class="container-fluid about-section">
         <div class="row">
-          <div class="col-12">
-            <h1 id="header"> Facility </h1>
+            <div class="col-sm-12 about">
+                <h2>About Us!</h2>
+                <br>
+                <p>Hello and welcome to our brand new gym located in Pontypridd town center.<br>
+                    Luke’s Gym is a positive, friendly and vibrant gym.<br>
+                    We provide a variety of gym equipment to help with your training needs.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="conatainer">
+        <div class="row">
+          <div class="col-sm-12">
+            <img src="/images/gymbikes.png">
           </div>
         </div>
-        <div class="row">
-          <div class="col-sm-6 img-size">
-            <img src="/images/cardio-fun-small.png">
+    </div>
+   
+
+      <div class="container-fluid">
+        <div class="row section">
+          <div class="col-sm-4 left">
+            <h2 class="sub-head">Opening Hours</h2>
+            <table>
+        <tr class="head">
+          <th>Day</th>
+          <th>Open</th>
+          <th>Close</th>
+        </tr>
+        <tr class="sub">
+          <td>Monday</td>
+          <td>6am</td>
+          <td>10pm</td>
+        </tr>
+        <tr class="sub">
+          <td>Tuesday</td>
+          <td>6am</td>
+          <td>10pm</td>
+        </tr>
+        <tr class="sub">
+          <td>Wednesday</td>
+          <td>6am</td>
+          <td>10pm</td>
+        </tr>
+        <tr class="sub">
+          <td>Thursday</td>
+          <td>6am</td>
+          <td>10pm</td>
+        </tr>
+        <tr class="sub">
+          <td>Friday</td>
+          <td>6am</td>
+          <td>10pm</td>
+        </tr>
+        <tr class="sub">
+          <td>Saturday</td>
+          <td>8am</td>
+          <td>6pm</td>
+        </tr>
+        <tr class="sub">
+          <td>Sunday</td>
+          <td>8am</td>
+          <td>2pm</td>
+        </tr>
+      </table>
           </div>
-          <div class="col-sm-6 img-size-two">
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam  </p>
+          <div class="col-sm-4 center">
+            <h2 class="location-head">Location</h2>
+            <br>
+            <h5 class="address">Address:</h5>
+            <p class="address-p">99a, Taff Street,<br>Pontypridd, <br>CF37 4SL</p>
+            <br>
+            <h5 class="address"> Phone Number:</h5>
+            <p class="phone-p">01443 123456<p>
+          </div>
+            
+            <div class="col-sm-4 right">
+             
+            <div class="map">
+                <iframe width="400" height="250" src="https://maps.google.com/maps?q=99a%20Taff%20Street&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="auto"></iframe>
+            </div>
+              
           </div>
         </div>
-        <div class="row">
-          <div class="col-12 box">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6 img-size-three">
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam </p>
-          </div>
-          <div class="col-sm-6 img-size-four">
-            <img src="/images/weightlifer-small.png">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12 box-two">
-          </div>
-        </div>
-        
-        <h2> Plus we offer the following: </h2>
-        
-        <div class="row">
-          <div class="col-4 icons">
-            <i class="fas fa-shower center"></i>
-            <p> Showers </p>
-          </div>
-          <div class="col-4 icons">
-            <i class="fas fa-boxes center"></i>
-            <p>Lockers</p>
-          </div>
-          <div class="col-4 icons">
-            <i class="fas fa-wifi center"></i>
-            <p>Wi-Fi</p>
-          </div>
-        </div>
-        
-        <div class="row">
-          <div class="col-6">
-            <i class="fas fa-person-booth center"></i>
-            <p>Changing Rooms</p>
-          </div>
-          <div class="col-6">
-            <i class="fas fa-coffee center"></i>
-            <p>Drinks</p>
-          </div>
-        </div>
-        
-        <div class="row">
-          <div class="col-12 box">
-          </div>
-        </div>
-        
       </div>
+      
+    </div>
 
     <div class="footer container-fluid">
         <div class="row">
             <div class="col-sm-4">
                 <h6>Phone Number: 01443 123456 </h6>
                 <h6>Email: info@Lukesgym.co.uk</h6>
-            </div>
+            </div> 
             <div class="col-sm-4">
                 <h6>Copyright by Luke Bailey</h6>
             </div>
@@ -139,6 +173,8 @@
             </div>
         </div>
     </div>
+  </div>
+ 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
