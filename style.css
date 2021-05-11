@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 body {
-  font-family: 'Roboto', sans-serif;
+   font-family: 'Roboto', sans-serif;
 }
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
 
 /* -- Navbar styling -- */
 
@@ -130,6 +136,11 @@ body {
     padding-top: 20px;
     padding-bottom: 5px;;
     text-align: center;
+
+    position: relative;
+  bottom: 0;
+  width: 100%;
+     
 }
 
 .fa {
@@ -143,4 +154,3 @@ body {
 .fa:hover {
   color: grey;
 }
-

@@ -62,6 +62,10 @@ body {
   .img-size {
     height: 250px;
   }
+
+  .img-size-two, p{
+    margin-top: 5px;
+  }
   
   .img-size-four {
     height: 250px;
