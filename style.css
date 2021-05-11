@@ -42,7 +42,7 @@ body {
 /* -- Jumbotron styling -- */
 
 .hero {
-    background-image: url("/images/EmptyGymArea.png") ;
+    background-image: url("./images/EmptyGymArea.png") ;
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
