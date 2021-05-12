@@ -63,7 +63,7 @@ p {
   padding-top: 20px;
 }
   
-  img {
+.img {
     background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -92,6 +92,7 @@ p {
   }
   
   .address {
+    font-size: 18px;
     font-weight: bold;
     padding-left: 20px;
   }
@@ -135,7 +136,7 @@ p {
     font-family: 'Roboto', sans-serif;
     background-color:#190061;
     color: white;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 5px;;
     text-align: center;
 }
