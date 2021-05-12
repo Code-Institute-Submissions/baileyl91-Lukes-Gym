@@ -83,6 +83,7 @@ body {
   
   .map {
     padding-top: 50px;
+    margin-bottom: 25px;
   }
   
   .address {
@@ -99,7 +100,6 @@ body {
   }
   
   .section {
-    height: 400px;
     background-color: #fafafa;
   }
   
@@ -107,6 +107,7 @@ body {
     width: 85%;
     margin-left: 20px;
     margin-top: 20px;
+    margin-bottom: 25px;
   }
   
   th, td {
@@ -136,11 +137,6 @@ body {
     padding-top: 20px;
     padding-bottom: 5px;;
     text-align: center;
-
-    position: relative;
-  bottom: 0;
-  width: 100%;
-     
 }
 
 .fa {
