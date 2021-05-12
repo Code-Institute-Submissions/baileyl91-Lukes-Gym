@@ -3,7 +3,6 @@
 body {
   background-color: #fafafa;
   font-family: 'Roboto', sans-serif;
-  height: 100vh;
 }
 
 /* -- Navbar styling -- */
@@ -107,5 +106,5 @@ body {
   }
 
 .card-row {
-  height: 700px;
+  margin-bottom: 25px;
 }
