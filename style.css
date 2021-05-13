@@ -5,12 +5,6 @@ body {
    background-color: #fafafa;
 }
 
-#page-container {
-  position: relative;
-  min-height: 100vh;
-}
-
-
 /* -- Navbar styling -- */
 
 .navbar-bg {
@@ -20,7 +14,6 @@ body {
 .navbar-brand {
     color: white;
     margin-left: 5px;
-    font-family: 'Roboto', sans-serif;
 }
 
 .nav-link {
@@ -28,7 +21,6 @@ body {
     margin-top: 5px;
     margin-right: 5px;
     margin-bottom: 5px;
-    font-family: 'Roboto', sans-serif;
 }
 
 .navbar li > a:hover {
@@ -59,7 +51,7 @@ body {
     background-color: #fafafa;
 }
 
-
+/* --  Image Break Section -- */
   
 .img {
     background-position: center;
@@ -69,41 +61,15 @@ body {
      width: 100%;
      object-fit: cover;
   }
+
+/* --  Opening Hours, Table Section -- */
   
-  .sub-head {
-    padding-top: 50px;
+  #hours-header {
+    padding-top: 40px;
     padding-left: 20px;
     text-decoration: underline;
-    font-family: 'Verdana', sans-serif;
   }
 
-  .location-head {
-    padding-top: 50px;
-    padding-left: 20px;
-    text-decoration: underline;
-    font-family: 'Verdana', sans-serif;
-  }
-  
-  .map {
-    padding-top: 50px;
-    margin-bottom: 50px;
-  }
-  
-  .address {
-    font-size: 18px;
-    font-weight: bold;
-    padding-left: 20px;
-    padding-top: 5px;
-  }
-  
-  .address-p {
-    padding-left: 25px;
-  }
-  
-  .section {
-    background-color: #fafafa;
-  }
-  
   table {
     width: 85%;
     margin-left: 20px;
@@ -117,18 +83,38 @@ body {
     text-align: center;
   }
   
-  .head {
+  #table-header {
     background-color: navy;
     color: white;
     margin-bottom: 5px;
   }
-  
-  .sub {
-    background-color: #fafafa;
-    width: 100%;
+
+/* --  Location Section -- */
+
+  #location-header {
+    padding-top: 40px;
+    padding-left: 20px;
+    text-decoration: underline;
+  }
+
+  .sub-location-header {
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 5px;
   }
   
+  #address-info {
+    padding-left: 25px;
+  }
 
+/* -- Map Section -- */
+  
+  .map {
+    padding-top: 40px;
+    margin-bottom: 50px;
+  }
+  
 /* -- Footer styling -- */
 
 .footer {
