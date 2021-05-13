@@ -14,7 +14,6 @@ body {
 .navbar-brand {
     color: white;
     margin-left: 5px;
-    font-family: 'Roboto', sans-serif;
 }
 
 .nav-link {
@@ -22,7 +21,6 @@ body {
     margin-top: 5px;
     margin-right: 5px;
     margin-bottom: 5px;
-    font-family: 'Roboto', sans-serif;
 }
 
 .navbar li > a:hover {
@@ -34,11 +32,15 @@ body {
     border-bottom: 2px solid grey;
 }
 
-#sub-head {
+/* -- Membership Header -- */
+
+#header {
   text-align: center;
   padding-top: 10px;
   margin-top: 100px;
 }
+
+/* -- Card Deck Styling -- */
 
   .card-title {
     text-align: center;
@@ -48,64 +50,56 @@ body {
     height: 250px;
   }
   
-  .left {
+  .left-card {
     text-align: center;
     background-color: #a57164;
   }
   
-  .middle {
+  .middle-card {
     text-align: center;
     background-color: #c0c0c0;
   }
   
-  .right {
+  .right-card {
     text-align: center;
     background-color: #daa520;
   }
-  
-  i {
-    font-size: 50px;
-    color: #fafafa;
-  }
-  
+
   .card-deck {
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 30px;
-    
    }
   
-  .card-img-top {
-    height: 250px;
+   .card-row {
+    margin-bottom: 50px;
   }
   
-  .membership{
-    background-color: grey;
+/* -- Icons Styling in Cards -- */
+
+  i {
+    font-size: 50px;
+    color: #fafafa;
   }
 
 /* -- Footer styling -- */
 
 .footer {
-    background-color:#190061;
-    color: white;
-    padding-top: 20px;
-    padding-bottom: 5px;;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
+  background-color:#190061;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 5px;;
+  text-align: center;
 }
 
 .fa {
-  color: white;
-  font-size: 25px;
-  padding-left: 25px;
-  padding-right: 25px;
-  padding-top: 2px;
-  }
-  
-  .fa:hover {
-  color: grey;
-  }
+color: white;
+font-size: 25px;
+padding-left: 25px;
+padding-right: 25px;
+padding-top: 2px;
+}
 
-.card-row {
-  margin-bottom: 50px;
+.fa:hover {
+color: grey;
 }
