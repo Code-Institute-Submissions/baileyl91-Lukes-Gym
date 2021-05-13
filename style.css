@@ -3,33 +3,38 @@
 body {
    font-family: 'Roboto', sans-serif;
    background-color: #fafafa;
+
+   /* -- This code fix the problem of my navbar being longer than actual body,
+          however I couldn't identify where the problem was coming from -- */
+   width: 100%; 
+   overflow-x: hidden; 
 }
 
 /* -- Navbar styling -- */
 
 .navbar-bg {
-    background-color: #190061;
+  background-color: #190061;
 }
 
 .navbar-brand {
-    color: white;
-    margin-left: 5px;
+  color: white;
+  margin-left: 5px;
 }
 
 .nav-link {
-    color: white;
-    margin-top: 5px;
-    margin-right: 5px;
-    margin-bottom: 5px;
+  color: white;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
 }
 
 .navbar li > a:hover {
-    color: grey;
+  color: grey;
 }
 
 .navbar-nav > .active > a {
-    color: grey;
-    border-bottom: 2px solid grey;
+  color: grey;
+  border-bottom: 2px solid grey;
 }
 
 /* -- Jumbotron styling -- */
