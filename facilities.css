@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 body {
+  background-color: #fafafa;
   font-family: 'Roboto' , sans-serif;
 }
 
@@ -13,7 +14,6 @@ body {
 .navbar-brand {
     color: white;
     margin-left: 5px;
-    font-family: 'Roboto', sans-serif;
 }
 
 .nav-link {
@@ -21,7 +21,6 @@ body {
     margin-top: 5px;
     margin-right: 5px;
     margin-bottom: 5px;
-    font-family: 'Roboto', sans-serif;
 }
 
 .navbar li > a:hover {
@@ -33,15 +32,12 @@ body {
     border-bottom: 2px solid grey;
 }
 
-body {
-    background-color: #fafafa;
-  }
+/* -- Header and Content -- */
   
   #header {
     margin-top: 100px;
     text-align: center;
     padding-top: 10px;
-    
   }
   
   h2 {
@@ -49,9 +45,11 @@ body {
     margin-top: 30px;
   }
   
-   p {
+  p {
     text-align: center;
   }
+
+/* -- Images -- */
   
   img {
     height: 250px;
@@ -60,23 +58,22 @@ body {
     object-fit: cover;
   }
   
-  .img-size {
+  .image-box {
     height: 250px;
-    margin-top: 50px;
+    margin-top: 40px;
   }
 
-  .img-size-two, p{
+  /* -- Text Box -- */
+
+  .text-box {
     margin-top: 40px;
   }
   
-  .img-size-four {
-    height: 250px;
-    margin-bottom: 50px;
+  #divider {
+    margin-top: 35px;
   }
-  
-  .box {
-    height: 50px;
-  }
+
+/* -- Icons -- */
   
   .icons {
     height: 150px;
@@ -86,7 +83,6 @@ body {
   .fas {
     font-size: 50px;
     color: navy;
-    margin-bottom:20px;
   }
   
   .center {
@@ -95,19 +91,16 @@ body {
     margin-top: 20px;
   }
   
-  .box-two {
-    height: 50px;
-    border-bottom: 1px solid grey;
-    margin-bottom: 25px;
+  .box {
+    padding-bottom: 40px;
   }
 
 /* -- Footer styling -- */
 
 .footer {
-  font-family: 'Roboto', sans-serif;
   background-color:#190061;
   color: white;
-  padding-top: 20px;
+  padding-top: 15px;
   padding-bottom: 5px;;
   text-align: center;
 }
