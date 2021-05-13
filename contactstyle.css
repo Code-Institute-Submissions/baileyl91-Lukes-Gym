@@ -14,7 +14,6 @@ body {
 .navbar-brand {
     color: white;
     margin-left: 5px;
-    font-family: 'Roboto', sans-serif;
 }
 
 .nav-link {
@@ -22,7 +21,6 @@ body {
     margin-top: 5px;
     margin-right: 5px;
     margin-bottom: 5px;
-    font-family: 'Roboto', sans-serif;
 }
 
 .navbar li > a:hover {
@@ -33,28 +31,6 @@ body {
     color: grey;
     border-bottom: 2px solid grey;
 }
-
-/* -- Footer styling -- */
-
-.footer {
-    background-color:#190061;
-    color: white;
-    padding-top: 20px;
-    padding-bottom: 5px;;
-    text-align: center;
-}
-
-.fa {
-    color: white;
-    font-size: 25px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 2px;
-    }
-    
-    .fa:hover {
-    color: grey;
-    }
 
 /* -- Contact Us Section -- */
 
@@ -83,15 +59,15 @@ body {
     background-color: #EEEEEE;
 }
 
+.text-input:hover {
+    background-color: #B8B8B8;
+}
+
 .form-control {
     background-color: #EEEEEE;
 }
 
 .form-control:hover {
-    background-color: #B8B8B8;
-}
-
-.text-input:hover {
     background-color: #B8B8B8;
 }
 
@@ -110,4 +86,25 @@ body {
    transform: translateY(1.5px);
 }
 
+/* -- Footer styling -- */
 
+.footer {
+    font-family: 'Roboto', sans-serif;
+    background-color:#190061;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 5px;;
+    text-align: center;
+}
+
+.fa {
+  color: white;
+  font-size: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 2px;
+}
+
+.fa:hover {
+  color: grey;
+}
