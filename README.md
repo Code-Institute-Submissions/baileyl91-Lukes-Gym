@@ -1,7 +1,7 @@
 
 # Luke's Gym Website
 
-View the live project here
+View the [live project here](https://baileyl91.github.io/Lukes-Gym/index.html)
 
 This project was created as part of my Milestone Project 1 
 with Code Insitute Web Application Development course.
