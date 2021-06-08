@@ -40,7 +40,7 @@ body {
 /* -- Jumbotron styling -- */
 
 .hero {
-    background-image: url("../assets/gymarea.jpg") ;
+    background-image: url("./assets/gymarea.jpg") ;
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
