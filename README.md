@@ -44,10 +44,10 @@ I have chosen an image of the main area of the gym to display as a hero image to
 
 ### Wireframes
 
-* Home Page - view
-* Factility Page - view
-* Membership Page - view 
-* Contact Us - view
+* Home Page - [view](assets/wireframes/Home.png)
+* Factility Page - [view](assets/wireframes/Facilities.png)
+* Membership Page - [view](assets/wireframes/Membership.png) 
+* Contact Us - [view](assets/wireframes/Contact.png)
 
 ## Features
 
@@ -73,7 +73,7 @@ There are a number of features that have been implemented into the website which
 - Google Font
     * The font Roboto was imported from Google Font.
 - Font Awesome
-    * Used Font Awesome to get some social media icons to use in the footer.
+    * Used Font Awesome to get some social media icons to use in footer and icons to display information.
 - Gitpod
     * Gitpod is the development environment used to develop the project.
 - GitHub
@@ -84,5 +84,7 @@ There are a number of features that have been implemented into the website which
     * The developer tools were used to inspect elements of the page and debug any potential problems within the website.
 - Website
     * This website was used to get stock free images for the project.
+
+## Testing
 
 
