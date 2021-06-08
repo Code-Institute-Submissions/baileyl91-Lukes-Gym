@@ -118,3 +118,21 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 5.	Change the current working directory to the location where you want the cloned directory to be made.
 6.	Type git clone, and then paste the URL you copied in Step 3.
 7.	Press Enter. Your local clone will be created.
+
+
+## Credits
+
+### Code
+
+### Content
+
+All the content was written by me. 
+
+### Media
+
+All the stock images used were found on [Unsplash](https://unsplash.com/)
+
+### Acknowledgements
+
+ Want to thank the Student Care and fellows students for the support. 
+ Also the tremendous community on the Slack channel.
