@@ -87,6 +87,105 @@ There are a number of features that have been implemented into the website which
 
 ## Testing
 
+The testing was done by me and tested the following questions: 
+
+* Are the navbar links working? 
+    
+    Yes
+* Is the contact form working when correctly filled in?
+    
+    Yes
+    (./assets/testing-images/form-success.png)
+* Does it prompt the user to fill in the missing required field?
+    
+    Yes
+    (.assets/testing-images/text-prompy.png)
+* Does it prompt the user when the email field is filled in wrong?
+    
+    Yes
+    (./assets/testing-images/email-prompt.png)
+* Does social media links work when clicked on a link and taken to a new tab/window?
+    
+    Yes
+
+The website have been tested in the following browsers to make sure it loading correctly and working:
+* Chrome
+* Safari
+* Firefox
+
+The website has tested on the following devices using Google Developer Tools, as I have only got access to iPhone 11.
+* Samsung Galaxy S5
+* Pixel 2
+* iPad
+
+
+## Lighthouse Report
+
+Have tested the website using the Lighthouse via Google Developer Tools to test for its accessibility, SEO and best practice.
+
+On desktop:
+
+(./assets/testing-images/desktop-lightroom.png)
+
+On Mobile:
+
+(./assets/tetsing-images/mobile-lightroom.png)
+
+### W3C Markup Validator Service
+
+There were a couple of issues when tested using the markup validator.
+The errors were based on the iframe element when implemented with Google Maps.
+[Results]()
+
+### W3C CSS Validator
+
+There were few issues when tested using the CSS validator.
+However I was not able to understand the issue as it seems to be in the bootstrap framework.
+I have implemented the bootstrap v4.6 following the Bootstrap documentation. Therefore I did not understand why there were issues. It did not affect the website though.
+[Results] ()
+
+
+
+### Testing User Stories
+
+* As a first time visitor, I want to be able to understand the main purpose of the site and learn more about the gym. 
+    
+    The website clearly displays that this a gym
+
+
+* As a first time visitor, I want to be able to easily navigate the website.
+    
+    Tested on all navigation links to ensure that it was working, goes to the correct page and is easy to navigate.
+
+* As a first time visitor, I want to be able to find the contact information easily.
+    
+    Scrolled down the home page, a user can see the contact information along with the address and map. There were also contact details in the footer and there is contact us page with a link in the navbar.
+
+* As a first time visitor, I want to be able to find the location of the gym.
+    
+    Scrolled down the home page and the location is displayed clearly alongside a map.
+
+* As a first time visitor, I want to be able to see the opening times of the gym.
+    
+    Scroll down the home page and the opening hours table is shown.
+
+* As a first time visitor, I want to be able to find out what type of equipment they offer.
+    
+    Users can click on the facilities page via navbar and can find the equipment the gym offers.
+
+* As a returning visitor, I want to be able to find the membership prices.
+    
+    Users can click on the membership page to find the prices.
+	
+* As a returning visitor, I want to be able to contact the gym with questions if needed.
+    
+    Users can click on the contact us page to fill in the form for any queries needed.
+
+* As a returning visitor, I want to be able to find the gym social media pages for any new information that has been posted.
+    
+    When clicked on the social media icons, the links will open up in a new tab/window.
+
+
 ## Deployment 
 
 ### GitHub Pages
