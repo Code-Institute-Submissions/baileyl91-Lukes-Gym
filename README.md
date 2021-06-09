@@ -138,6 +138,7 @@ On Mobile:
 
 There were a couple of issues when tested using the markup validator.
 The errors were based on the iframe element when implemented with Google Maps.
+
 [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbaileyl91.github.io%2FLukes-Gym%2Findex.html)
 
 ### W3C CSS Validator
@@ -145,6 +146,7 @@ The errors were based on the iframe element when implemented with Google Maps.
 There were few issues when tested using the CSS validator.
 However I was not able to understand the issue as it seems to be in the bootstrap framework.
 I have implemented the bootstrap v4.6 following the Bootstrap documentation. Therefore I did not understand why there were issues. It did not affect the website though.
+
 [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbaileyl91.github.io%2FLukes-Gym%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 
@@ -242,6 +244,24 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 
 
 ## Credits
+
+W3School Tutorial
+
+I wanted to implement a card system offered by Bootstrap for my membership page.
+Used the tutorial they offered to learn about it and decided to add it to my website but also modified it to my liking.
+Here is the [tutorial page](https://www.w3schools.com/bootstrap4/bootstrap_cards.asp) I used.
+
+FreeCodeCamp 
+
+Had a problem where my footer was not sticking to the bottom. After searching on Google, I came across this [article](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/). 
+I realised that I hadn’t set the page to a minimum-height viewport. Following the advice of the article it solved the issue.
+
+Google Map
+
+I wanted to implement a static Google Map to display the location of the gym and came across this [Google Map Generator](https://google-map-generator.com/) website. 
+I copied the HTML code to use in my website.
+
+
 
 ### Code
 
