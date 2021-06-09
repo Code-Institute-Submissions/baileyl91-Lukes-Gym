@@ -229,10 +229,10 @@ The project was deployed to GitHub Pages using the following steps
 
 1.	Log in to GitHub and locate the GitHub Repository
 2.	At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-3.	Scroll down the Settings page until you locate the "GitHub Pages" Section.
+3.	Click on "Pages" in the left hand side menu.
 4.	Under "Source", click the dropdown called "None" and select "Master Branch".
 5.	The page will automatically refresh.
-6.	Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+6.	The now published site link is now shown on top of page.
 
 ### Forking the GitHub Repository
 
@@ -246,7 +246,7 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 ### Making a Local Clone
 
 1.	Log in to GitHub and locate the GitHub Repository
-2.	Under the repository name, click "Clone or download".
+2.	Below the settings, click on "Code".
 3.	To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 4.	Open Git Bash
 5.	Change the current working directory to the location where you want the cloned directory to be made.
