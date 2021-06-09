@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    background-color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+
+    height: 100%;
+ position: relative;
+ min-height: 100vh; /* will cover the 100% of viewport */
+ display: block;
+ position: relative;
+ padding-bottom: 250px;
+}
+
+/* -- Navbar styling -- */
+
+.navbar-bg {
+    background-color: #190061;
+}
+
+.navbar-brand {
+    color: white;
+    margin-left: 5px;
+}
+
+.nav-link {
+    color: white;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.navbar li > a:hover {
+    color: grey;
+}
+
+.navbar-nav > .active > a {
+    color: grey;
+    border-bottom: 2px solid grey;
+}
+
+/* -- Contact Us Section -- */
+
+.contact-section {
+    color: black ;
+    height: 250px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+/* -- Form Section -- */
+
+.message-form {
+    max-width: 650px;
+    padding: 20px;
+    border: 1px solid grey;
+    margin: auto;
+}
+
+.text-input {
+    width: 100%;
+    height: 35px;
+    margin: 10px 0 20px ;
+    border: 1px solid;
+    border-radius: 8px;
+    background-color: #EEEEEE;
+}
+
+.text-input:hover {
+    background-color: #B8B8B8;
+}
+
+.form-control {
+    background-color: #EEEEEE;
+}
+
+.form-control:hover {
+    background-color: #B8B8B8;
+}
+
+.submit-button {
+    margin-bottom: 20px;
+    border-radius: 50px;
+    padding: 15px 25px 15px 25px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #190061;
+    color: white;
+    float: right;
+}
+
+.submit-button:hover {
+   transform: translateY(1.5px);
+}
+
+/* -- Footer styling -- */
+
+.footer {
+    font-family: 'Roboto', sans-serif;
+    background-color:#190061;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 5px;;
+    text-align: center;
+
+    position: absolute;
+    bottom: 0;
+}
+
+.fa {
+  color: white;
+  font-size: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 2px;
+}
+
+.fa:hover {
+  color: grey;
+}
