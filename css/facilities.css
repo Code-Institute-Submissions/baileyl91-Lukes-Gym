@@ -57,6 +57,11 @@ body {
     text-align: center;
   }
 
+  .text-box-header {
+    text-align: center;
+    text-decoration: underline;
+  }
+
 /* -- Images -- */
   
   img {
