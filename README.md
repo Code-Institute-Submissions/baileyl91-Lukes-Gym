@@ -245,6 +245,8 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 
 ## Credits
 
+### Code
+
 W3School Tutorial
 
 I wanted to implement a card system offered by Bootstrap for my membership page.
@@ -260,10 +262,6 @@ Google Map
 
 I wanted to implement a static Google Map to display the location of the gym and came across this [Google Map Generator](https://google-map-generator.com/) website. 
 I copied the HTML code to use in my website.
-
-
-
-### Code
 
 ### Content
 
