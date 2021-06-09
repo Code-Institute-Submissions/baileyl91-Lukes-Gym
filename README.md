@@ -95,15 +95,15 @@ The testing was done by me and tested the following questions:
 * Is the contact form working when correctly filled in?
     
     Yes
-    (./assets/testing-images/form-success.png)
+    ![](/assets/testing-images/form-success.png)
 * Does it prompt the user to fill in the missing required field?
     
     Yes
-    (.assets/testing-images/text-prompy.png)
+    ![](/assets/testing-images/text-prompy.png)
 * Does it prompt the user when the email field is filled in wrong?
     
     Yes
-    (./assets/testing-images/email-prompt.png)
+    ![](/assets/testing-images/email-prompt.png)
 * Does social media links work when clicked on a link and taken to a new tab/window?
     
     Yes
@@ -125,11 +125,11 @@ Have tested the website using the Lighthouse via Google Developer Tools to test 
 
 On desktop:
 
-(./assets/testing-images/desktop-lightroom.png)
+![](/assets/testing-images/desktop-lightroom.png)
 
 On Mobile:
 
-(./assets/tetsing-images/mobile-lightroom.png)
+![](/assets/tetsing-images/mobile-lightroom.png)
 
 ### W3C Markup Validator Service
 
