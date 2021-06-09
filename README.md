@@ -142,7 +142,7 @@ The errors were based on the iframe element when implemented with Google Maps.
 There were few issues when tested using the CSS validator.
 However I was not able to understand the issue as it seems to be in the bootstrap framework.
 I have implemented the bootstrap v4.6 following the Bootstrap documentation. Therefore I did not understand why there were issues. It did not affect the website though.
-[Results] (https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbaileyl91.github.io%2FLukes-Gym%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+[Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbaileyl91.github.io%2FLukes-Gym%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 
 
@@ -185,6 +185,25 @@ I have implemented the bootstrap v4.6 following the Bootstrap documentation. The
     
     When clicked on the social media icons, the links will open up in a new tab/window.
 
+### Issues 
+
+Throughout my development of the projects I had a couple of issues which I have tried to address.
+
+First, I had a problem with the footer not sticking to the bottom.
+
+(./assets/testing-images/footer-problem.png) 
+
+After searching through Google, found an article on FreeCodeCamp which had some potential issues.
+
+[Found Here](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/)
+
+Following the advice in the article, it had the solution I needed to solve the issue.
+
+Secondly, when the website is viewed on mobile, it creates a horizontal scroll.
+In the screenshot below you can see the navbar ‘overhang’ the body of the page.
+I was not able to solve this issue.
+
+(./assets/testing-images/overhang-mobile.png)
 
 ## Deployment 
 
