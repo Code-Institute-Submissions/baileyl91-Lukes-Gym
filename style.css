@@ -5,7 +5,8 @@ body {
    background-color: #fafafa;
 
    /* -- This code fix the problem of my navbar being longer than actual body,
-          however I couldn't identify where the problem was coming from -- */
+          however I couldn't identify where the problem was coming from.
+          Was taken from https://stackoverflow.com/questions/37211727/navbar-width-automatically-becoming-5px-or-so-bigger-than-the-body-somehow -- */
    width: 100%; 
    overflow-x: hidden; 
 }
