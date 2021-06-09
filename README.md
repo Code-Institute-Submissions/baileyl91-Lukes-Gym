@@ -169,6 +169,8 @@ I have implemented the bootstrap v4.6 following the Bootstrap documentation. The
     
     Scrolled down the home page, a user can see the contact information along with the address and map. There were also contact details in the footer and there is contact us page with a link in the navbar.
 
+    ![](/assets/testing-images/location.png)
+
 * As a first time visitor, I want to be able to find the location of the gym.
     
     Scrolled down the home page and the location is displayed clearly alongside a map.
@@ -177,9 +179,15 @@ I have implemented the bootstrap v4.6 following the Bootstrap documentation. The
     
     Scroll down the home page and the opening hours table is shown.
 
+    ![](/assets/testing-images/table-hours.png)
+
 * As a first time visitor, I want to be able to find out what type of equipment they offer.
     
     Users can click on the facilities page via navbar and can find the equipment the gym offers.
+
+    ![](/assets/testing-images/weight.png)
+
+    ![](/assets/testing-images/cardio.png)
 
 * As a returning visitor, I want to be able to find the membership prices.
     
