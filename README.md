@@ -135,14 +135,14 @@ On Mobile:
 
 There were a couple of issues when tested using the markup validator.
 The errors were based on the iframe element when implemented with Google Maps.
-[Results]()
+[Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbaileyl91.github.io%2FLukes-Gym%2Findex.html)
 
 ### W3C CSS Validator
 
 There were few issues when tested using the CSS validator.
 However I was not able to understand the issue as it seems to be in the bootstrap framework.
 I have implemented the bootstrap v4.6 following the Bootstrap documentation. Therefore I did not understand why there were issues. It did not affect the website though.
-[Results] ()
+[Results] (https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbaileyl91.github.io%2FLukes-Gym%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 
 
