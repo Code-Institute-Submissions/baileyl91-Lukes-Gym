@@ -191,7 +191,7 @@ Throughout my development of the projects I had a couple of issues which I have 
 
 First, I had a problem with the footer not sticking to the bottom.
 
-(/assets/testing-images/footer-problem.png) 
+!(/assets/testing-images/footer-problem.png) 
 
 After searching through Google, found an article on FreeCodeCamp which had some potential issues.
 
@@ -203,7 +203,7 @@ Secondly, when the website is viewed on mobile, it creates a horizontal scroll.
 In the screenshot below you can see the navbar ‘overhang’ the body of the page.
 I was not able to solve this issue.
 
-(/assets/testing-images/overhang-mobile.png)
+!(/assets/testing-images/overhang-mobile.png)
 
 ## Deployment 
 
